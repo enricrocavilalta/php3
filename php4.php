@@ -19,7 +19,7 @@ class Employee {
   }
   function print(){
       echo $this->nom . "<br>";
-      echo $this->sou>6000?"paga":"no paguis";
+      echo ($this->sou>6000) ? "paga" : "no paguis";
 }
 }
 
